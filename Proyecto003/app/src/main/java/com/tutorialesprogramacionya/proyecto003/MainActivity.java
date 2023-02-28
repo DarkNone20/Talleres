@@ -50,13 +50,13 @@ public class MainActivity extends AppCompatActivity {
             int multiplicar=nro1*nro2;
             String resu=String.valueOf(multiplicar);
             tv1.setText(resu);
-        } else
-            if (r4.isChecked()==true) {
-        int dividir=nro1/nro2;
-        String resu=String.valueOf(dividir);
-        tv1.setText(resu);
-    }
+        } else {
 
+            int dividir = nro1 / nro2;
+            String resu = String.valueOf(dividir);
+            tv1.setText(resu);
+
+        }
 
     }
 }
